@@ -19,8 +19,9 @@ BASE = Path(__file__).resolve().parent
 DOCS = BASE / "docs"
 
 # The URL the site will live at. Override before running, e.g.
-#   set SITE_URL=https://yourname.github.io/lavo-landing
-SITE_URL = os.environ.get("SITE_URL", "https://example.github.io/lavo-landing")
+# Default is the real published URL, so a plain `python build_static.py`
+# is always correct. Override only when publishing somewhere else.
+SITE_URL = os.environ.get("SITE_URL", "https://yaphetsaragones.github.io/lavo-landing")
 
 os.environ["DJANGO_SETTINGS_MODULE"] = "lavo.settings"
 os.environ["DJANGO_DEBUG"] = "False"          # hides the prototype ribbon
