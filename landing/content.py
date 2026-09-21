@@ -12,11 +12,11 @@ CONTACT = {
     "phone_alt_display": "0992 827 8815",
     "phone_alt_e164": "+639928278815",
     "hours": "Mon – Sun · 8:00 AM – 8:00 PM",
-    "messenger": "https://m.me/lavolaundry",
-    "facebook": "https://www.facebook.com/lavolaundry",
+    "messenger": "https://m.me/Lavoph",
+    "facebook": "https://www.facebook.com/Lavoph",
     "instagram": "https://instagram.com/",
     "tiktok": "https://tiktok.com/",
-    "reviews_url": "https://www.facebook.com/lavolaundry/reviews",
+    "reviews_url": "https://www.facebook.com/Lavoph",
 }
 
 REASONS = [
